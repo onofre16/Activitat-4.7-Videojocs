@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="icon" href="./img/logo-icon.png">
+        <title>
+        3DJuegos
+        </title>
+        <meta charset="utf-8">
+        <style>
+            html {
+                display: block;
+                margin-top: -10px;
+            }
+            .header {
+                margin: 0px auto 0px auto;
+                margin-top: 0px;
+                background:url("img/bg_top.png") ;
+                width: 1018px;
+            }
+            form {
+                float: right;
+                padding: 24px 25px 0px 0px ;
+            }
+            body {
+                background: url("img/inicio_1.png") ;
+                background-size: 100% 100%;
+            }
+            .nav {
+                margin-left: auto;
+                margin-right: auto;
+                background: url("img/bg_menu.png");
+                width: 988px;
+                height: 25px;
+                padding-top: 7px;
+                padding-left: 30px;
+                list-style-type: none;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: .9em;
+            } 
+                
+            .nav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 0px 4px 0px 4px;
+            text-decoration: none;
+            border-right:1px solid rgb(129, 196, 235);
+            font-size: 0.9em;
+            }
+            .nav a:link{
+                color: rgb(129, 196, 235);
+            }
+            /* Change color on hover */
+            .nav a:hover {
+            color:white;
+            }
+            .centro {
+                margin-left: auto;
+                margin-right: auto;
+                width: 1018px; 
+                height: 350px; 
+                background-color:black;
+
+            }
+            .foto-portada {
+                float: left;
+                background: url("img/final.jpg") no-repeat;
+                background-size: 658px 350px;
+                width: 658px; 
+                height: 358px; 
+            }
+            .text-portada {
+
+                width: 210px; 
+                height: 100px; 
+                margin: 90px 0px 0px 20px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            }
+            .foto-portada h1{
+                color: rgb(218, 32, 32);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.8em;
+            }
+            .foto-portada h3{
+
+                color: white;
+                font-size: 0.85em;
+                margin: 18px 0px 14px 0px;
+            }
+
+            .foto-portada p {
+                color: white;
+                font-size: .9em;
+                margin: 20px 0px 0px 0px;
+            }
+
+            .noticias {
+                float: right;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                width: 356px;
+                margin: 2px 0px 19px 2px;
+                display: block;
+
+            }
+            .noticias h3{
+                margin-top: 0px;
+                margin-bottom: 5px;
+                padding: 10px 0px 0px 0px;
+                color: white;
+            
+            }
+            .noticias li {
+                float: right;
+                list-style: none;
+                width: 360px;
+                margin: 0px 0px 12px 0px;
+                /*width: 360px; 
+                height: 60px; */
+
+            }
+
+            .noticias p {
+                float: right;
+                font-size: 0.8em;
+                margin:.4em 1em 0em .5em;
+                width: 275px;
+                color: rgba(255, 255, 255, 0.774);
+                text-align: justify;
+            }
+            /*aqui empieza los stilos de footer*/
+            .footer {
+                margin: 0px auto 0px auto;
+                background:url("img/bg_peu.png") no-repeat ;
+                background-size: 100% 100%;
+                width: 1018px;
+                height: 90px;
+            }
+
+            .copy-right p {
+                text-align: center;
+                margin-top: 0px;
+                padding-top: 13px;
+                color: grey;
+                font-size: .65em;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .icons-redes {
+                margin: 20px auto 0px auto;
+                width: 127px;
+                height: 40px;
+            }
+            .icons-redes div{
+                margin: auto;
+                float: left;
+                padding: 0px 5px 0px 5px;
+                width: 32px;
+                height: 32px;
+                
+            }
+
+        </style>
+        </head>
+    <body>
+        <header>
+            <div class="header" >
+                <img src="img/3djuegos.png" alt="3DJuegosLogo">
+                <form action="#">
+                    <input type="search" id="busbar" value="" style="width: 375px;">
+                    <input type="submit" value="Buscar">
+                </form>
+            </div>
+        </header>
+        <div class="nav">
+            <a href="#"> Portada</a>
+            <a href="#">Noticias</a>
+            <a href="#">Novedades</a>
+            <a href="#">Análisis</a>
+            <a href="#">Avances</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Imagénes</a>
+            <a href="#">Especiales</a>
+            <a href="#">Trucos y guías</a>
+            <a href="#">Juegos por géneros</a>
+            <a href="#">Top100</a>
+            <a href="#">Tienda</a>
+        </div>
+        <section>
+            <div class="centro">
+                <div class="foto-portada">
+                    <div class="text-portada">
+                    <h1>Mass Effect 3</h1>
+                    <h3>El veredicto dinal</h3>
+                    <p>La epopeya del comandante Shepard se somete a vuestro "Veredicto Final". ¿Ha estado a la altura de lo que esperabas?</p>
+                </div>
+                </div>
+                <div class="noticias">
+                    <h3> Noticias destacadas</h3>
+                    <ul>
+                        <li>
+                            <img src="img/foto_1.jpg" alt="foto 1"> 
+                            <p> F1 2012 se pondrá a la venta en septiembre de 2012</p>
+                        </li>
+                        <li>
+                            <img src="img/foto_2.jpg" alt="foto 2">
+                            <p>SEGA podría tener terminada una versión HD del Shenmue original desde hace un año</p>
+                        </li>
+                        <li>
+                            <img src="img/foto_3.jpg" alt="foto 3">
+                            <p>STALKER 2 sigue en desarrollo, aunque todavía no cuenta con fecha de lanzamiento</p>
+                        </li>
+                        <li>
+                            <img src="img/foto_4.jpg" alt="foto 4">
+                        <p>CryTek anuncia que Homefront 2 "Hará mucho ruido cuando salga a la venta"</p>
+                        </li>
+                        <li>
+                            <img src="img/foto_5.jpg" alt="">
+                            <p>Microsoft aclara que no mostrarán la sucesora de Xbox 369 en el E3</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="logo-foot">
+
+                </div>
+                <div class="copy-right">
+                    <p> © 3DJUEGOS S.J. 2005-2012. TODOS LOS DERECHOS RESERVADOS. SOBRE 3DJUEGOS | INFORMACIÓN LEGAL</p>
+                </div>
+                <div class="icons-redes">
+                    <div>
+                        <a href="https://www.facebook.com/3djuegos"> 
+                            <img src="img/facebook-icon.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div >
+                        <a href="https://twitter.com/3djuegos">
+                        <img src="img/twitter-icon.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div >
+                        <a href="https://www.3djuegos.com/universo/rss/rss.php">
+                        <img src="img/rss-icon.png" alt="rss">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
